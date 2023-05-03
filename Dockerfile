@@ -22,5 +22,20 @@ RUN apt update && \
 # Source ROS2 setup files
 RUN echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 
+# Setup workspace
+RUN apt install -y python3-colcon-common-extensions && \
+    apt install ros-foxy-turtlesim && \
+    apt-get install python3-rosdep -y && \
+    rosdep init && \
+    rosdep update
+
+# Additional packages
+RUN apt install -y tmux && \
+    apt install -y git-all
+
+
+# COPY
+WORKDIR /root
+# ENTRYPOINT [ "executable" ] # use to launch ros node at start of container
 # Start a bash shell when container start
 CMD ["/bin/bash"]
