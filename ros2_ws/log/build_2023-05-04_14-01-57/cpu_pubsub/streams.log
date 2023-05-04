@@ -1,0 +1,15 @@
+[0.018s] Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32
+[0.056s] [35m[1mScanning dependencies of target talker[0m
+[0.070s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.079s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.908s] [01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kdouble CPULoadNode::getCurrentCPULoad()[m[K’:
+[0.908s] [01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:55:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kline[m[K’ was not declared in this scope
+[0.908s]    55 |     std::stringstream ss([01;31m[Kline[m[K);
+[0.908s]       |                          [01;31m[K^~~~[m[K
+[1.528s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.528s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.528s] make[1]: *** Waiting for unfinished jobs....
+[3.142s] [ 75%] [32m[1mLinking CXX executable listener[0m
+[3.278s] [ 75%] Built target listener
+[3.278s] make: *** [Makefile:141: all] Error 2
+[3.282s] Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32

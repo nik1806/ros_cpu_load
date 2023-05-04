@@ -1,0 +1,32 @@
+[0.013s] Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32
+[0.050s] [35m[1mScanning dependencies of target listener[0m
+[0.053s] [35m[1mScanning dependencies of target talker[0m
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.111s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[2.215s] [ 75%] Built target talker
+[3.166s] [100%] [32m[1mLinking CXX executable listener[0m
+[3.324s] [100%] Built target listener
+[3.337s] Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32
+[3.372s] Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/build/cpu_pubsub
+[3.381s] -- Install configuration: ""
+[3.381s] -- Installing: /root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/talker
+[3.382s] -- Set runtime path of "/root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/talker" to ""
+[3.383s] -- Installing: /root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/listener
+[3.385s] -- Set runtime path of "/root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/listener" to ""
+[3.385s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/package_run_dependencies/cpu_pubsub
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/parent_prefix_path/cpu_pubsub
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/ament_prefix_path.sh
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/ament_prefix_path.dsv
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/path.sh
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/path.dsv
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.bash
+[3.386s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.sh
+[3.387s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.zsh
+[3.388s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.dsv
+[3.388s] -- Installing: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/package.dsv
+[3.389s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/packages/cpu_pubsub
+[3.389s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/cmake/cpu_pubsubConfig.cmake
+[3.390s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/cmake/cpu_pubsubConfig-version.cmake
+[3.390s] -- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/package.xml
+[3.390s] Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /root/ros2_ws/build/cpu_pubsub

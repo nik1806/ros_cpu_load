@@ -1,0 +1,12 @@
+[0.013s] Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32
+[0.048s] [35m[1mScanning dependencies of target talker[0m
+[0.066s] [ 50%] Built target listener
+[0.068s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.853s] [01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.854s] [01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:106:40:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+[0.854s]   106 |   auto timer = node->create_wall_timer([01;31m[K500ms[m[K, std::bind(&CPULoadNode::timerCallback, node));
+[0.854s]       |                                        [01;31m[K^~~~~[m[K
+[1.407s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[1.407s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[1.407s] make: *** [Makefile:141: all] Error 2
+[1.410s] Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32

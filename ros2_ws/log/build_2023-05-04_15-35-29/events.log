@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (cpu_pubsub) JobQueued: {'identifier': 'cpu_pubsub', 'dependencies': OrderedDict()}
+[0.000660] (cpu_pubsub) JobStarted: {'identifier': 'cpu_pubsub'}
+[0.009675] (cpu_pubsub) JobProgress: {'identifier': 'cpu_pubsub', 'progress': 'cmake'}
+[0.010745] (cpu_pubsub) JobProgress: {'identifier': 'cpu_pubsub', 'progress': 'build'}
+[0.010839] (cpu_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/cpu_pubsub', '--', '-j32', '-l32'], 'cwd': '/root/ros2_ws/build/cpu_pubsub', 'env': OrderedDict([('HOSTNAME', '4be5d53c7d43'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/build/cpu_pubsub'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.050613] (cpu_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.053657] (cpu_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.072511] (cpu_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.075086] (cpu_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.099712] (-) TimerEvent: {}
+[0.199938] (-) TimerEvent: {}
+[0.300202] (-) TimerEvent: {}
+[0.400496] (-) TimerEvent: {}
+[0.500834] (-) TimerEvent: {}
+[0.601162] (-) TimerEvent: {}
+[0.701489] (-) TimerEvent: {}
+[0.801805] (-) TimerEvent: {}
+[0.902151] (-) TimerEvent: {}
+[1.002493] (-) TimerEvent: {}
+[1.102785] (-) TimerEvent: {}
+[1.203053] (-) TimerEvent: {}
+[1.303320] (-) TimerEvent: {}
+[1.403596] (-) TimerEvent: {}
+[1.503868] (-) TimerEvent: {}
+[1.604129] (-) TimerEvent: {}
+[1.704395] (-) TimerEvent: {}
+[1.804658] (-) TimerEvent: {}
+[1.904925] (-) TimerEvent: {}
+[2.005188] (-) TimerEvent: {}
+[2.090879] (cpu_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[2.105264] (-) TimerEvent: {}
+[2.193121] (cpu_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[2.205341] (-) TimerEvent: {}
+[2.305580] (-) TimerEvent: {}
+[2.405847] (-) TimerEvent: {}
+[2.506170] (-) TimerEvent: {}
+[2.606498] (-) TimerEvent: {}
+[2.706822] (-) TimerEvent: {}
+[2.807133] (-) TimerEvent: {}
+[2.907448] (-) TimerEvent: {}
+[3.007763] (-) TimerEvent: {}
+[3.108071] (-) TimerEvent: {}
+[3.147139] (cpu_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[3.208155] (-) TimerEvent: {}
+[3.287293] (cpu_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[3.296721] (cpu_pubsub) CommandEnded: {'returncode': 0}
+[3.308259] (-) TimerEvent: {}
+[3.316504] (cpu_pubsub) JobProgress: {'identifier': 'cpu_pubsub', 'progress': 'install'}
+[3.328815] (cpu_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/cpu_pubsub'], 'cwd': '/root/ros2_ws/build/cpu_pubsub', 'env': OrderedDict([('HOSTNAME', '4be5d53c7d43'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/root/ros2_ws/build/cpu_pubsub'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[3.338507] (cpu_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.338704] (cpu_pubsub) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/talker\n'}
+[3.339902] (cpu_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/talker" to ""\n'}
+[3.340038] (cpu_pubsub) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/listener\n'}
+[3.342340] (cpu_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/root/ros2_ws/install/cpu_pubsub/lib/cpu_pubsub/listener" to ""\n'}
+[3.342482] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/package_run_dependencies/cpu_pubsub\n'}
+[3.342620] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/parent_prefix_path/cpu_pubsub\n'}
+[3.342756] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/ament_prefix_path.sh\n'}
+[3.342878] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/ament_prefix_path.dsv\n'}
+[3.343018] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/path.sh\n'}
+[3.343109] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/environment/path.dsv\n'}
+[3.343196] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.bash\n'}
+[3.343283] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.sh\n'}
+[3.343383] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.zsh\n'}
+[3.343509] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/local_setup.dsv\n'}
+[3.343599] (cpu_pubsub) StdoutLine: {'line': b'-- Installing: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/package.dsv\n'}
+[3.343687] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/ament_index/resource_index/packages/cpu_pubsub\n'}
+[3.343773] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/cmake/cpu_pubsubConfig.cmake\n'}
+[3.343860] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/cmake/cpu_pubsubConfig-version.cmake\n'}
+[3.343945] (cpu_pubsub) StdoutLine: {'line': b'-- Up-to-date: /root/ros2_ws/install/cpu_pubsub/share/cpu_pubsub/package.xml\n'}
+[3.345061] (cpu_pubsub) CommandEnded: {'returncode': 0}
+[3.401003] (cpu_pubsub) JobEnded: {'identifier': 'cpu_pubsub', 'rc': 0}
+[3.401890] (-) EventReactorShutdown: {}

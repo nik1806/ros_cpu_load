@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kdouble CPULoadNode::getCurrentCPULoad()[m[K’:
+[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:55:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kline[m[K’ was not declared in this scope
+   55 |     std::stringstream ss([01;31m[Kline[m[K);
+      |                          [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable listener[0m
+[ 75%] Built target listener
+make: *** [Makefile:141: all] Error 2

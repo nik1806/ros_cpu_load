@@ -1,0 +1,7 @@
+[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:106:40:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+  106 |   auto timer = node->create_wall_timer([01;31m[K500ms[m[K, std::bind(&CPULoadNode::timerCallback, node));
+      |                                        [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

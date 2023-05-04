@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/cpu_pubsub -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpu_pubsub
+Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /root/ros2_ws/src/cpu_pubsub -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/cpu_pubsub
+Invoking command in '/root/ros2_ws/build/cpu_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32
+Invoked command in '/root/ros2_ws/build/cpu_pubsub' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /root/ros2_ws/build/cpu_pubsub -- -j32 -l32

@@ -1,0 +1,4 @@
+source;share/cpu_pubsub/local_setup.bash
+source;share/cpu_pubsub/local_setup.dsv
+source;share/cpu_pubsub/local_setup.sh
+source;share/cpu_pubsub/local_setup.zsh
