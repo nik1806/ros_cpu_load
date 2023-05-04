@@ -41,6 +41,8 @@ WORKDIR /root
 COPY run_node.sh /run_node.sh
 RUN chmod +x /run_node.sh
 
+RUN apt update
+
 ENTRYPOINT [ "/run_node.sh" ] # use to launch ros node at start of container
 # Start a bash shell when container start
 CMD ["/bin/bash"]

@@ -26,7 +26,7 @@ private:
     RCLCPP_INFO(this->get_logger(), "I heard: '%lf'", msg->data);
     // Write CPU load data to log file
     static std::ofstream ofs("cpu_load.log", std::ios_base::app);
-    // ofs << msg->data << std::endl;
+    ofs << msg->data << std::endl;
   }
   
   rclcpp::Subscription<std_msgs::msg::Float64>::SharedPtr subscription_;

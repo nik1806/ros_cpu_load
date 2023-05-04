@@ -1,0 +1,5 @@
+.vscode
+*log*
+*_ws*
+!ros2_ws
+!log/latest_build
