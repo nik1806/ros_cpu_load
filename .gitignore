@@ -3,3 +3,4 @@
 *_ws*
 !ros2_ws
 !log/latest_build
+!read_n_print_log.sh

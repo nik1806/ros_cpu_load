@@ -32,17 +32,14 @@ RUN apt install -y python3-colcon-common-extensions && \
 # Additional packages
 RUN apt install -y tmux && \
     apt install -y git-all && \
-    apt install -y wget
-
+    apt install -y wget 
 
 WORKDIR /root
 
-# COPY
 COPY run_node.sh /run_node.sh
 RUN chmod +x /run_node.sh
 
-RUN apt update
-
-ENTRYPOINT [ "/run_node.sh" ] # use to launch ros node at start of container
+# use to launch ros node at start of container
+ENTRYPOINT [ "/run_node.sh" ] 
 # Start a bash shell when container start
 CMD ["/bin/bash"]
