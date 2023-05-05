@@ -36,10 +36,12 @@ RUN apt install -y tmux && \
 
 WORKDIR /root
 
+# use to launch ros node at start of container
 COPY run_node.sh /run_node.sh
+
 RUN chmod +x /run_node.sh
 
-# use to launch ros node at start of container
 ENTRYPOINT [ "/run_node.sh" ] 
+
 # Start a bash shell when container start
 CMD ["/bin/bash"]

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROS2_WS_PATH=ros2_ws
+ROS2_WS_PATH=/root/ros2_ws
 
 cd $ROS2_WS_PATH
 # build package
