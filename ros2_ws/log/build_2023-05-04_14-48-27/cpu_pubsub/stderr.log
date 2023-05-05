@@ -1,4 +1,0 @@
-[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kdouble CPULoadNode::getCurrentCPULoad()[m[K’:
-[01m[K/root/ros2_ws/src/cpu_pubsub/src/publisher_member_function.cpp:56:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalue[m[K’ [[01;35m[K-Wunused-variable[m[K]
-   56 |     double [01;35m[Kvalue[m[K;
-      |            [01;35m[K^~~~~[m[K
